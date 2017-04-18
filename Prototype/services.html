@@ -6,37 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page Title Goes Here</title>
     <meta name="description" content="Page Description Goes Here">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="java/jquery.js" type="text/javascript"></script>
+    <script src="https://use.fontawesome.com/5f12d8ef5c.js"></script>
   </head>
   <body>
     <div class="topnav">
-      <button type="button" class="donate">DONATE</button>
-      <img src="images/facebook1.png" class="social media"alt="Facebook"/>
-      <img src="images/twitter1.png" class="social media" alt="Twitter"/>
+    <button class="donate"><span>DONATE</span></button>
+      <input type="text" class="search" name="search" placeholder="Search..">
+      <img src="images/facebook.svg" class="socialmedia1"alt="Facebook"/>
+      <img src="images/twitter.svg" class="socialmedia2" alt="Twitter"/>
     </div>
     <header>
       <img src="images/FranklinCountyLogo-02.svg" class="logo" alt="Franklin County Family and Community Services"/>
+    <!--Pattern HTML-->
+    <div id="pattern" class="pattern">
+      <!--Begin Pattern HTML-->
+  		<a href="#menu" class="menu-link">Menu</a>
+  		<nav id="menu" class="menu" role="navigation">
+  			<ul class="level-1">
+  				<!--Parent #1-->
+  				<li>
+            <a href="#">About</a></li>
+  				<!--Parent #2-->
+  				<li class="has-subnav"><a href="services.html">Services</a>
+  					<ul class="level-2">
+  						<li><a href="#">Children and Adolescents</a</li>
+  						<li><a href="#">Developmental Disabilities</a </li>
+  						<li><a href="#">Substance Abuse</a></li>
+  						<li><a href="#">Residential Services</a></li>
+  									</ul>
+  								</li>
+          </li>
+
+  				<!--Parent #3-->
+  				<li class="has-subnav"><a href="getinvolved.html">Get Involved</a>
+  					<ul class="level-2">
+              <li><a href="#">Donate</a></li>
+            </ul>
+        </li>
+  				<!--Parent #4-->
+        <li><a href="#">Events</a></li>
+  				<!--Parent #5-->
+        <li><a href="#">Contact</a></li>
+  					</ul>
+  		</nav>
+  	</div>
     </header>
-    <nav>
-      <ul>
-        <li>About</li>
-        <li><a href="#">Services</a>
-          <ul>
-            <li>Children and Adolescents</li>
-            <li>Developmental Disabilites</li>
-          <li>Mental Health</li>
-          <li>Substance Abuse</li>
-          <li>Residential Services</li>
-        </ul>
-      </li>
-      <li><a href="#">Get Involved</a>
-        <ul>
-          <li>Donate</li>
-        </ul>
-      </li>
-      <li>Events</li>
-      <li>Contact</li>
-    </ul>
-    <main>
+  	<!--End Pattern HTML-->
+    <main class="main3">
       <h1>Service and Programs</h1>
       <img src="images/counseling2.jpg" class="counseling" alt="Two women in a counseling session together"/>
       <p>Franklin County Family and Community Services offers a number of programs and services to individuals and the community. The programs range from child and adolescent services to residential programs for those currently in treatment. Please use the links below to navigate the services and programs we offer. </p>
@@ -45,28 +63,28 @@
           <h2>Children and Adolescents</h2>
           <h3>Bright Changes</h3>
           <p>Bright Changes program is a comprehensive, youth guided, family driven and community supported mental health and substance abuse system of care.</p>
-          <button type="button" class="learnmore">LEARN MORE</button>
+          <a href="#" class="learn">LEARN MORE</a>
         </div>
         <div class="services">
           <h2>Developmental Disabilities</h2>
           <h3>CHOICES2 Innovative Community Services</h3>
           <p> CHOICES2 provides innovative community service programs ranging from employment to family support</p>
-          <button type="button" class="learnmore">LEARN MORE</button>
+          <a href="#" class="learn">LEARN MORE</a>
         </div>
         <div class="services">
           <h2>Mental Health</h2>
           <p>Providing reputable mental health services for adults with behavioral, emotional, or substance-related disorders</p>
-        <button type="button" class="learnmore">LEARN MORE</button>
+        <a href="#" class="learn">LEARN MORE</a>
         </div>
         <div class="services">
           <h2>Residential Services</h2>
           <p>The Residential Department provides housing and support services to adolescents and adults with mental health and/or substance abuse challenges.</p>
-          <button type="button" class="learnmore">LEARN MORE</button>
+          <a href="#" class="learn">LEARN MORE</a>
         </div>
         <div class="services">
           <h2>Substance Abuse</h2>
           <p> The Cobb Recovery Center provides compassionate substance abuse and addictive disease treatment programs</p>
-          <button type="button" class="learnmore">LEARN MORE</button>
+          <a href="#" class="learn">LEARN MORE</a>
         </div>
       </section>
     <footer>
@@ -77,9 +95,9 @@
       <dt>Phone:</dt>
       <dd>330-858-9923</dt>
     </dl>
-    <img src="images/facebook1.png" class="social media"alt="Facebook"/>
-    <img src="images/twitter1.png" class="social media" alt="Twitter"/>
+    <img src="images/facebook.svg" class="socialmedia1"alt="Facebook"/>
+    <img src="images/twitter.svg" class="socialmedia2" alt="Twitter"/>
     </footer>
-      <link href="style.css" rel="stylesheet" type="text/css" media="screen" /> <!-- Add your stylesheet here, before the closing HTML tag -->
-  </body>
+      <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
 </html>
