@@ -527,7 +527,7 @@ h4{
     -webkit-transition: width 0.8s ease-in-out;
     transition: width 0.8s ease-in-out;
 }
-@media screen and (min-width:325px){
+@media screen and (min-width:300px){
   .search[type=text]{
     width: 35%;
 }
@@ -749,7 +749,7 @@ form{
 .connect h2{
   color: #FFFCEB;
 }
-@media screen and (min-width:325px){
+@media screen and (min-width:300px){
   .connect{
     display: flex;
     flex-direction: column;
@@ -782,7 +782,7 @@ form{
 .email:active{
   color:#000929;
 }
-@media screen and (min-width:325px){
+@media screen and (min-width:300px){
   .email{
     width: 75%;
   }
@@ -825,7 +825,7 @@ p{
   padding-left: 1em;
   padding-right: 1em;
 }
-@media screen and (min-width: 325px){
+@media screen and (min-width: 300px){
   .values h1{
     font-size: 1.5em;
     margin-bottom: 0;
@@ -863,7 +863,7 @@ dl{
   padding-left: 2em;
   margin-top: -1em;
 }
-@media screen and (min-width: 325px){
+@media screen and (min-width: 300px){
   .informational{
     margin-top: 1.5em;
     margin-left: 1em;
@@ -902,7 +902,7 @@ dl{
 .main2 p{
   max-width: 80em;
 }
-@media screen and (min-width: 325px){
+@media screen and (min-width: 300px){
 .main2 h1{
   font-size: 2em;
   margin-bottom: 1.5em;
@@ -1162,18 +1162,42 @@ dl{
   background-image: url("images/donationbox.jpg");
   margin-top: 1em;
 }
-@media screen and (min-width: 325px){
-  .hero-text{
-    font-size: 1em;
+@media screen and (min-width: 300px){
+  h1.hero-text{
+    font-size: 1.5em;
+    padding: 0;
+  }
+  div.hero-image__text{
+    margin-top:2.5em;
+  }
+p.hero-paragraph{
+  font-size: .65em;
+  font-weight: bold;
+  margin-top: -1em;
+  margin-bottom: 2em;
+  max-width: 100%;
+}
+}
+@media screen and (min-width:525px){
+  p.hero-paragraph{
+    font-size: .75em;
+    margin-top:.05em;
+    margin-bottom: 1em;
+    max-width: 90%;
+  }
+}
+@media screen and (min-width:660px){
+  p.hero-paragraph{
+    font-size: .95em;
   }
 }
 @media screen and (min-width: 550px){
-  .hero-text{
-    font-size: 1.75em;
+  h1.hero-text{
+    font-size: 2em;
   }
 }
 @media screen and (min-width:825px){
-  .hero-text{
+  h1.hero-text{
     font-size: 3em;
   }
 }
@@ -1254,6 +1278,21 @@ a{
 	padding: 0;
   display: inline-block;
 }
+@media screen and (min-width:300px){
+  .footer-links{
+    font-size: .65em;
+  }
+}
+@media screen and (min-width:600px){
+  .footer-links{
+    font-size: .85em;
+  }
+}
+@media screen and (min-width:725px){
+  .footer-link{
+    font-size:.95em;
+  }
+}
 
 .footer-distributed .footer-links a{
 	text-decoration: none;
@@ -1303,7 +1342,7 @@ a{
 .foot{
   margin-left: 1em;
 }
-@media screen and (min-width: 325px){
+@media screen and (min-width: 300px){
 .foot{
   width: 40%;
   height: auto;
@@ -1311,7 +1350,19 @@ a{
 }
 @media screen and (min-width: 550px){
   .foot{
+    width: 45%;
+    height: auto;
+  }
+}
+@media screen and (min-width:600px){
+  .foot{
     width: 50%;
+    height: auto;
+  }
+}
+@media screen and (max-width:987px){
+  .foot{
+    width: 35%;
     height: auto;
   }
 }
