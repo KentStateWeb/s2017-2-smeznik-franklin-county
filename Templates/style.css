@@ -810,6 +810,7 @@ h2.conntectwith{
 /*Paragraphs*/
 p{
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: .05em;
 }
 .empower{
   font-size: 1.5em;
@@ -824,6 +825,9 @@ p{
   margin-top: .5em;
   padding-left: 1em;
   padding-right: 1em;
+}
+.values h2{
+  color: #000000;
 }
 @media screen and (min-width: 300px){
   .values h1{
@@ -1061,7 +1065,8 @@ dl{
 			color: #fff;
 		}
 .full > div{
-  background-color:#CCCCCC;
+  background-image:url('images/counseling.jpg');
+  background-size: cover;
   border-radius: .2em;
 }
 .wide > div{
@@ -1370,6 +1375,9 @@ a{
 .socialmedia{
   margin-left: 1.25em;
 }
+.socialmedia:hover{
+
+}
 .socfoot{
   margin-left: .25em;
   margin-top: .75em;
@@ -1378,7 +1386,6 @@ a{
 .carousel-cell {
 	width: 100%;
 }
-
 .carousel-cell img {
 	width: 100%;
 	height: auto;
