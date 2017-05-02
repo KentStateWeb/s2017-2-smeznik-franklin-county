@@ -816,7 +816,7 @@ p{
   margin-top: 1em;
 }
 .values p{
-  max-width:80em;
+  max-width:80%;
 }
 .values{
   background-color:#9EEBCF;
