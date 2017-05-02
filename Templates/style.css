@@ -755,8 +755,8 @@ form{
     flex-direction: column;
     align-items: center;
   }
-  .connect h2{
-    font-size: 1.25em;
+  h2.connectwith{
+    font-size: 1.65em;
   }
 }
 @media screen and (min-width:930px){
@@ -765,7 +765,7 @@ form{
     align-items: center;
   }
 }
-.connect h2{
+h2.conntectwith{
   font-size: 2em;
   padding-right: 1em;
 }
