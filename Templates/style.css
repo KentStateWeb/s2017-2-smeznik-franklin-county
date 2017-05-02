@@ -815,6 +815,9 @@ p{
   font-size: 1.5em;
   margin-top: 1em;
 }
+.values p{
+  max-width:80em;
+}
 .values{
   background-color:#9EEBCF;
   padding-bottom: 3em;
