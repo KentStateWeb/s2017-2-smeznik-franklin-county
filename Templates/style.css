@@ -1162,6 +1162,21 @@ dl{
   background-image: url("images/donationbox.jpg");
   margin-top: 1em;
 }
+@media screen and (min-width: 325px){
+  .hero-text{
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 550px){
+  .hero-text{
+    font-size: 1.75em;
+  }
+}
+@media screen and (min-width:825px){
+  .hero-text{
+    font-size: 3em;
+  }
+}
 /*List Styles*/
 ul{
   list-style: none;
