@@ -1107,10 +1107,6 @@ dl{
 }
 .scrollover:hover > div{
   border: .25em solid #F28705;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
 }
 		@media all and (min-width: 640px) {
 			.grid li {
