@@ -1105,7 +1105,7 @@ dl{
 .inner > div{
  background-color: rgba(0, 27, 68, .70);
 }
-.scrollover:hover > div{
+.scrollover> div{
   border: .25em solid #F28705;
 }
 		@media all and (min-width: 640px) {
