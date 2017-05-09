@@ -1035,7 +1035,7 @@ form{
 /*Paragraphs*/
 @media screen and (min-width: 300px){
    p{
-    max-width:95%;
+    max-width:85%;
     margin: 1em;
   }
 }
