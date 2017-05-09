@@ -480,7 +480,7 @@ align-items: center;
 header .logo{
   width:100%;
   height: auto;
-  margin-right: 2em;
+  margin-right: 3em;
 }
 @media screen and (min-width: 550px){
   header .logo{
